@@ -48,3 +48,18 @@ ul.topnav li a:hover {
     background-color: #0080FF;
     color: white;
 }
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+
+
+/*###################### Mobile styles ###########################*/
+/* Detects the screen width of the current device, if the device is less than or equal to 680px then we will apply different styles to the website so that it is mobile compatible */
+@media screen and (max-width: 680px) {
+    ul.topnav li {
+        display: none;
+    }
+}
