@@ -21,22 +21,24 @@
     
     <div class="container" id="section-1-gradient">
         <div class="row">
-            <div class="col-6 leftSide-col">
-                <div>
+            <div class="col-6">
+                <div class="leftSide-col">
                     <h1 class="large">Crazy Radness</h1>
                     <h1 class="large">Made for Developers</h1>
                 </div>
                 <form>
-                    <div>
-                        <h2>Username</h2>
+                    <div class="leftSide-col">
+                        <h2 class="username">Username</h2>
                         <input class="inputBox" type="text" name="username" placeholder="Username">
-                        <h2>Password</h2>
+                        <h2 class="password">Password</h2>
                         <input class="inputBox" type='password' name="password" placeholder="Password">
                     </div>
                 </form>
             </div>
             <div class="col-6">
-            
+                <div class="rightSide-col">
+                    <iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/rYeSA1vgIUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
         
@@ -50,7 +52,7 @@
  <script>
      const dropDownMenu = () => {
          let id = document.getElementById('dropDownClick');
-         id.className === 'topnav' ? id.className += 'responsive' : id.className = 'topnav';
+         id.className === 'topnav' ? id.className += ' responsive' : id.className = 'topnav';
      }
  </script> 
   
