@@ -104,6 +104,27 @@ ul.topnav li.dropdownIcon {
     display: none;
 }
 
+footer.footsy {
+    background-color: #666;
+    padding-left: 15%
+}
+
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
 
 /*########################### Custome Styles ###############################*/
 #section-1-gradient {
@@ -218,6 +239,15 @@ input[type='password'] {
     .col-6, .col-4, .col-5, .col-7 {
         width: 100%;
         margin: 0;
+    }
+    
+    div.mobileStack {
+        width: 50%;
+        display: block;
+    }
+    
+    footer.footsy {
+        padding-left: 8%;
     }
     
     div.box {
