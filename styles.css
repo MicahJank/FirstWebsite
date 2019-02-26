@@ -72,7 +72,7 @@ nav ul {
     background-color: #eee;
     overflow: hidden;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 ul.topnav li {
@@ -98,6 +98,12 @@ ul.topnav li a {
 ul.topnav li a:hover {
     background-color: #0080FF;
     color: white;
+}
+
+ul.topnav li.storyMarketing a {
+    font-size: 32px;
+    line-height: 1.2;
+    color:darkorange;
 }
 
 ul.topnav li.dropdownIcon {
@@ -180,6 +186,12 @@ h1.large {
     font-size: 56px;
     margin: 0;
     line-height: 70px;
+}
+
+h1.subhead {
+    color: #fff;
+    margin: 0;
+    line-height: 40px;
 }
 
 h1.section2Header {
@@ -281,7 +293,7 @@ input[type='password'] {
         
     }
     
-    h1.large, h2.username, h2.password {
+    h1.large, h1.subhead, h2.username, h2.password {
         text-align: center;
     }
     
